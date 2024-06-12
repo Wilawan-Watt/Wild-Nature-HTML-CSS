@@ -1,0 +1,219 @@
+/* ========== text style: Mitr ========== */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;700&display=swap');
+
+:root {
+    --text-color-info: #fff;
+    --text-color-header: #08542B;
+    --color-yellow: #FFB72B;
+    --color-green: #0F7B41;
+    --color-darkgreen-rgba: rgba(7, 50, 27, 0.7);
+    --color-white-rgba: rgba(255, 255, 255, 0.8);
+    --text-font: "Mitr", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========== slide bar start ========== */
+.slider-container {
+    position: relative;
+    z-index: -2;
+}
+
+.slider-wrapper {
+    position: absolute;
+    width: 100vw;
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll; /* ทำให้สามารถเลื่อนในแนวนอนได้ */
+    scroll-behavior: smooth; /* เลื่อนอย่างราบรื่น */
+    overflow-x: hidden; /* ซ่อน scrollbar */
+}
+
+.slider img {
+    object-fit: cover; /* ปรับขนาดรูปภาพให้ครอบคลุมทั้ง container */
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0; /* ป้องกันการหดตัวของภาพ */
+}
+
+.slider-nav {
+    display: flex;
+    position: absolute;
+    column-gap: 1rem;
+    left: 60%;
+    bottom: 8%;
+    transform: translateX(-50%); /* จัดตัวกดสไลด์ให้อยู่ตรงกลาง */
+}
+
+.slider-nav a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-white-rgba);
+}
+
+.slider-nav a:hover {
+    background-color: var(--color-yellow);
+    transform: scale(1.2);
+}
+/* =========== slide bar end ========== */
+
+
+/* =========== Header menu start ========== */
+.item img {
+    width: 100%;
+    position: absolute;
+    z-index: -1; 
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+li {
+    margin: 0 2rem;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--text-color-info);
+    font-family: var(--text-font);
+}
+
+li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+ul .button {
+    background-color: var(--color-yellow);
+    border-radius: 50px;
+    height: 40px;
+    margin-top: -8px;
+    padding: 7px;
+}
+
+ul .button:hover {
+    background-color: var(--color-green);
+}
+/* =========== Header menu end ========== */
+
+
+/* ========== Wild Information start ========== */
+.wild-info {
+    background-color: var(--color-yellow);
+    margin-top: 30px;
+    width: 450px;
+    height: 340px;
+    text-align: center;
+    font-family: var(--text-font);
+}
+
+.wild-info h2 {
+    font-size: 60px;
+    color: var(--text-color-header);
+}
+
+.wild-info h1 {
+    font-size: 80px;
+    color: var(--text-color-header);
+    margin-top: -40px;
+}
+
+.wild-info h3 {
+    color: var(--text-color-info);
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22px;
+    column-gap: 0.8rem;
+}
+
+.wild-info h3 img {
+    width: 40px;
+}
+
+.wild-info p {
+    color: var(--text-color-info);
+    text-align: justify;
+    margin: 0.5rem 4rem 2rem 4rem;
+}
+
+.wild-button {
+    border-radius: 50px;
+    background-color: var(--color-green);
+    width: 200px;
+    height: 50px;
+    place-content: center;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+.wild-button:hover {
+    background-color: var(--color-yellow);
+    transform: scale(1.1);
+}
+
+.wild-button a {
+    font-family: var(--text-font);
+    text-decoration: none;
+    color: var(--text-color-info);
+    font-size: 18px;
+}
+
+.wild-button a:hover {
+    text-decoration: underline;
+    color: var(--text-color-header);
+}
+/* ========== Wild Information end ========== */
+
+/* ========== Wild Social Media start ========== */
+.wild-social-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -280px;
+}
+
+.wild-social_media {
+    background-color: var(--color-darkgreen-rgba);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.5rem;
+}
+
+.wild-social_media img {
+    width: 40px;
+    height: 40px;
+    margin: 0.5rem;
+}
+
+.wild-social_media img:hover {
+    transform: scale(1.2);
+}
+/* ========== Wild Social Media end ========== */

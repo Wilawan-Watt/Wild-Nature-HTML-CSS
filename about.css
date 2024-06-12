@@ -1,0 +1,138 @@
+/* ========== text style: Mitr ========== */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;700&display=swap');
+
+:root {
+    --text-color-info: #fff;
+    --text-color-header: #08542B;
+    --color-yellow: #FFB72B;
+    --color-green: #0F7B41;
+    --color-darkgreen-rgba: rgba(7, 50, 27, 0.7);
+    --color-white-rgba: rgba(255, 255, 255, 0.8);
+    --text-font: "Mitr", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/forest.png);
+}
+
+/* =========== Header menu start ========== */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+li {
+    margin: 0 2rem;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--text-color-info);
+    font-family: var(--text-font);
+}
+
+li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+ul .button {
+    background-color: var(--color-yellow);
+    border-radius: 50px;
+    height: 40px;
+    margin-top: -8px;
+    padding: 7px;
+}
+
+ul .button:hover {
+    background-color: var(--color-green);
+}
+/* =========== Header menu end ========== */
+
+
+/* ========== About us start ========== */
+.about-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-container {
+    background-color: var(--color-darkgreen-rgba);
+    border-radius: 0 20px 20px 0;
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 2rem;
+    font-family: var(--text-font);
+    color: var(--text-color-info);
+}
+
+.about-container h1 {
+    text-align: center;
+}
+
+.about-container p {
+    font-size: 14px;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+.signature {
+    display: flex;
+    margin: 0.5rem 3rem;
+}
+
+.signature img {
+    width: 80px;
+    margin-top: 1rem;
+    margin-left: auto;
+}
+/* ========== About us end ========== */
+
+
+/* ========== Wild Social Media start ========== */
+.wild-social-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -300px;
+}
+
+.wild-social_media {
+    background-color: var(--color-darkgreen-rgba);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.5rem;
+}
+
+.wild-social_media img {
+    width: 40px;
+    height: 40px;
+    margin: 0.5rem;
+}
+
+.wild-social_media img:hover {
+    transform: scale(1.2);
+}
+/* ========== Wild Social Media end ========== */

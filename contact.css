@@ -1,0 +1,161 @@
+/* ========== text style: Mitr ========== */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;700&display=swap');
+
+:root {
+    --text-color-info: #fff;
+    --text-color-header: #08542B;
+    --color-yellow: #FFB72B;
+    --color-green: #0F7B41;
+    --color-darkgreen-rgba: rgba(7, 50, 27, 0.7);
+    --color-white-rgba: rgba(255, 255, 255, 0.8);
+    --text-font: "Mitr", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========== Header menu start ========== */
+.background-container {
+    position: relative;
+    height: 100vh;
+    background: url('img/forest-contact.png') no-repeat center center/cover;
+}
+
+.background-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 40%;
+    background-color: var(--color-darkgreen-rgba);
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+li {
+    margin: 0 2rem;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--text-color-info);
+    font-family: var(--text-font);
+}
+
+li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+ul .button {
+    background-color: var(--color-yellow);
+    border-radius: 50px;
+    height: 40px;
+    margin-top: -8px;
+    padding: 7px;
+}
+
+ul .button:hover {
+    background-color: var(--color-green);
+}
+
+/* =========== Header menu end ========== */
+
+
+/* ========== Contact start ========== */
+.contact {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--text-font);
+    color: var(--text-color-info);
+    margin-top: 30px;
+}
+
+.leaf-logo {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    padding: 0 70px;
+    align-items: center;
+}
+
+.leaf-logo img {
+    width: 300px;
+}
+
+.contact-info h1 {
+    font-size: 40px;
+    margin: 0 0 1rem 10rem;
+}
+
+.contact-info p {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 1rem 6rem;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--text-color-info);
+}
+
+.contact-info img {
+    width: 40px;
+}
+
+.contact-social-media {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0 0 0 12rem;
+}
+
+.contact-social-media img {
+    width: 30px;
+    padding: 1rem 0;
+}
+
+.contact-wrapper p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0 0 0 8rem;
+}
+
+.contact-wrapper p .sign-in a {
+    color: rgb(0, 170, 0);
+    text-decoration: none;
+}
+
+.contact-wrapper p .sign-up a {
+    color: var(--color-yellow);
+    text-decoration: none;
+}
+
+/* ========== Contact end ========== */
