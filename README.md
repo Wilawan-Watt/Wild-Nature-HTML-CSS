@@ -3,7 +3,7 @@ After that, I developed the webpage using HTML and CSS to bring this project to 
 
 *The Gallery page is still incomplete, and the responsive design for mobile and tablet views is also in progress. These updates will be made once the work is finished.
 
-Visit the website here *** https://wild-nature-html-css.onrender.com ***
+Visit the website here *** https://wilawan-watt.github.io/Wild-Nature-HTML-CSS/ ***
 
 
 โปรเจค Wild Nature เป็นโปรเจคที่ได้รับแรงบันดาลใจจาก https://www.freepik.com/free-vector/wild-nature-landing-page_10841411.htm จำนวน 1 หน้า (หน้าปก) แล้วนำมาต่อคิดต่อยอดในส่วนที่เหลือ
@@ -12,4 +12,4 @@ Visit the website here *** https://wild-nature-html-css.onrender.com ***
 
 *หน้า Gallery เป็นส่วนที่ยังไม่เสร็จสิ้น รวมถึงการทำ Responsive เพื่อรองรับหน้าเว็บบนมือถือและแท็บเล็ต ซึ่งจะอัพเดตต่อไปเมื่อทำเสร็จ
 
-เข้าชมเว็บไซต์ที่นี่ *** https://wild-nature-html-css.onrender.com ***
+เข้าชมเว็บไซต์ที่นี่ *** https://wilawan-watt.github.io/Wild-Nature-HTML-CSS/ ***
