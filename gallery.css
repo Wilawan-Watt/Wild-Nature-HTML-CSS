@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url(img/forest-gallery.png);
+    background-image: url(img/forest-gallery-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,19 +68,459 @@ ul .button {
 ul .button:hover {
     background-color: var(--color-green);
 }
+
 /* =========== Header menu end ========== */
 
 
 /* ========== Gallery start ========== */
-.gallery-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+main {
+    display: flex;
+    padding: 80px 80px;
 }
 
-.item {
-    background-color: var(--color-darkgreen-rgba);
-    border: 2px solid red;
+/* --------------- Elephant start --------------- */
+.animal:nth-child(1) {
+    display: flex;
+    align-items: center;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+
+        img {
+            width: 200px;
+            height: auto;
+            position: relative;
+            top: -23%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 0 10px 10px 0;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
 }
 
+.animal:nth-child(1):hover {
+    transform: scale(1.1);
+}
+/* --------------- Elephant end --------------- */
+
+/* --------------- Gibbon start --------------- */
+.animal:nth-child(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 145%;
+
+        img {
+            width: 150px;
+            height: auto;
+            position: relative;
+            top: -10%;
+            left: 10%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 10px 0 0 10px;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(2):hover {
+    transform: scale(1.1);
+}
+/* --------------- Gibbon end --------------- */
+
+/* --------------- Hornbill start --------------- */
+.animal:nth-child(3) {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+
+        img {
+            width: 200px;
+            height: auto;
+            position: relative;
+            top: -3%;
+            left: -5%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 0 10px 10px 0;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(3):hover {
+    transform: scale(1.1);
+}
+/* --------------- Hornbill end --------------- */
+
+/* --------------- Panda start --------------- */
+.animal:nth-child(4) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 145%;
+
+        img {
+            width: 200px;
+            height: auto;
+            position: relative;
+            top: -4%;
+            left: -8%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 10px 0 0 10px;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(4):hover {
+    transform: scale(1.1);
+}
+/* --------------- Panda end --------------- */
+
+/* --------------- Rhino start --------------- */
+.animal:nth-child(5) {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+
+        img {
+            width: 210px;
+            height: auto;
+            position: relative;
+            top: 12%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 0 10px 10px 0;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(5):hover {
+    transform: scale(1.1);
+}
+/* --------------- Rhino end --------------- */
+
+/* --------------- Sarus crane start --------------- */
+.animal:nth-child(6) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 145%;
+
+        img {
+            width: 160px;
+            height: auto;
+            position: relative;
+            top: -15%;
+            left: 5%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 10px 0 0 10px;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(6):hover {
+    transform: scale(1.1);
+}
+/* --------------- Slow loris start --------------- */
+.animal:nth-child(7) {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+
+        img {
+            width: 200px;
+            height: auto;
+            position: relative;
+            top: 1%;
+            left: -5%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 0 10px 10px 0;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(7):hover {
+    transform: scale(1.1);
+}
+/* --------------- Slow loris end --------------- */
+
+/* --------------- Tiger start --------------- */
+.animal:nth-child(8) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    padding-top: 20px;
+
+    .animal-image {
+        background-color: var(--color-green);
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 145%;
+
+        img {
+            width: 250px;
+            height: auto;
+            position: relative;
+            top: 0%;
+            left: -38%;
+        }
+    }
+
+    .animal-info {
+        background-color: var(--color-darkgreen-rgba);
+        border-radius: 10px 0 0 10px;
+        width: 400px;
+        height: 150px;
+        position: relative;
+        z-index: -1;
+        left: 45%;
+        padding: 15px;
+        font-family: var(--text-font);
+        color: var(--text-color-info);
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.2rem 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+}
+
+.animal:nth-child(8):hover {
+    transform: scale(1.1);
+}
+/* --------------- Tiger end --------------- */
 /* ========== Gallery end ========== */
+
+
+/* ========== Social media start ========== */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--color-darkgreen-rgba);
+}
+
+.wild-social_media a {
+    margin: 0 10px;
+}
+
+.wild-social_media img {
+    width: 30px;
+    height: 30px;
+}
+
+.wild-social_media img:hover {
+    transform: scale(1.2);
+}
+/* ========== Social media end ========== */
