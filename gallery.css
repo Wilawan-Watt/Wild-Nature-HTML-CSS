@@ -74,27 +74,27 @@ ul .button:hover {
 
 /* ========== Gallery start ========== */
 main {
-    display: flex;
-    padding: 80px 80px;
+    margin: 80px;
 }
 
 /* --------------- Elephant start --------------- */
 .animal:nth-child(1) {
     display: flex;
+    justify-content: start;
     align-items: center;
+    padding-top: 20px;
 
     .animal-image {
         background-color: var(--color-green);
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
 
         img {
             width: 200px;
             height: auto;
             position: relative;
-            top: -23%;
+            top: -22%;
         }
     }
 
@@ -103,12 +103,9 @@ main {
         border-radius: 0 10px 10px 0;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -131,9 +128,8 @@ main {
 /* --------------- Gibbon start --------------- */
 .animal:nth-child(2) {
     display: flex;
+    justify-content: end;
     align-items: center;
-    position: relative;
-    left: 75%;
     padding-top: 20px;
 
     .animal-image {
@@ -141,15 +137,13 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
-        left: 145%;
 
         img {
             width: 150px;
             height: auto;
             position: relative;
             top: -10%;
-            left: 10%;
+            left: 13%;
         }
     }
 
@@ -158,12 +152,9 @@ main {
         border-radius: 10px 0 0 10px;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -186,6 +177,7 @@ main {
 /* --------------- Hornbill start --------------- */
 .animal:nth-child(3) {
     display: flex;
+    justify-content: start;
     align-items: center;
     padding-top: 20px;
 
@@ -194,7 +186,6 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
 
         img {
             width: 200px;
@@ -210,12 +201,9 @@ main {
         border-radius: 0 10px 10px 0;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -238,9 +226,8 @@ main {
 /* --------------- Panda start --------------- */
 .animal:nth-child(4) {
     display: flex;
+    justify-content: end;
     align-items: center;
-    position: relative;
-    left: 75%;
     padding-top: 20px;
 
     .animal-image {
@@ -248,8 +235,6 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
-        left: 145%;
 
         img {
             width: 200px;
@@ -265,12 +250,9 @@ main {
         border-radius: 10px 0 0 10px;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -293,6 +275,7 @@ main {
 /* --------------- Rhino start --------------- */
 .animal:nth-child(5) {
     display: flex;
+    justify-content: start;
     align-items: center;
     padding-top: 20px;
 
@@ -301,7 +284,6 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
 
         img {
             width: 210px;
@@ -316,12 +298,9 @@ main {
         border-radius: 0 10px 10px 0;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -344,9 +323,8 @@ main {
 /* --------------- Sarus crane start --------------- */
 .animal:nth-child(6) {
     display: flex;
+    justify-content: end;
     align-items: center;
-    position: relative;
-    left: 75%;
     padding-top: 20px;
 
     .animal-image {
@@ -354,8 +332,6 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
-        left: 145%;
 
         img {
             width: 160px;
@@ -371,12 +347,9 @@ main {
         border-radius: 10px 0 0 10px;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -394,9 +367,12 @@ main {
 .animal:nth-child(6):hover {
     transform: scale(1.1);
 }
+/* --------------- Sarus crane end --------------- */
+
 /* --------------- Slow loris start --------------- */
 .animal:nth-child(7) {
     display: flex;
+    justify-content: start;
     align-items: center;
     padding-top: 20px;
 
@@ -405,14 +381,13 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
 
         img {
             width: 200px;
             height: auto;
             position: relative;
             top: 1%;
-            left: -5%;
+            left: -7%;
         }
     }
 
@@ -421,12 +396,9 @@ main {
         border-radius: 0 10px 10px 0;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
@@ -449,9 +421,8 @@ main {
 /* --------------- Tiger start --------------- */
 .animal:nth-child(8) {
     display: flex;
+    justify-content: end;
     align-items: center;
-    position: relative;
-    left: 75%;
     padding-top: 20px;
 
     .animal-image {
@@ -459,14 +430,11 @@ main {
         border-radius: 20px;
         width: 180px;
         height: 180px;
-        position: absolute;
-        left: 145%;
 
         img {
             width: 250px;
             height: auto;
             position: relative;
-            top: 0%;
             left: -38%;
         }
     }
@@ -476,12 +444,9 @@ main {
         border-radius: 10px 0 0 10px;
         width: 400px;
         height: 150px;
-        position: relative;
-        z-index: -1;
-        left: 45%;
-        padding: 15px;
         font-family: var(--text-font);
         color: var(--text-color-info);
+        padding: 1rem;
 
         h2 {
             display: flex;
