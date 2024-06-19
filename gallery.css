@@ -78,6 +78,10 @@ main {
 }
 
 /* --------------- Elephant start --------------- */
+.animal a {
+    text-decoration: none;
+}
+
 .animal:nth-child(1) {
     display: flex;
     justify-content: start;

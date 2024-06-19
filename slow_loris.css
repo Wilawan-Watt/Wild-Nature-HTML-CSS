@@ -74,17 +74,17 @@ ul .button:hover {
 
 /* =========== Header menu end ========== */
 
-/* ========== Elephant Gallery start ========== */
-.elephant-container {
+/* ========== Slow loris Gallery start ========== */
+.slow_loris-container {
     padding: 22px 0;
 }
 
-.elephant {
+.slow_loris {
     display: flex;
     align-items: center;
 }
 
-.elephant-image-1 {
+.slow_loris-image-1 {
     background-color: var(--color-green);
     border-radius: 30px;
     width: 300px;
@@ -92,14 +92,14 @@ ul .button:hover {
     margin-left: 50px;
 }
 
-.elephant-image-1 img {
-    width: 350px;
+.slow_loris-image-1 img {
+    width: 300px;
     height: auto;
     position: relative;
-    top: -28%;
+    top: 11%;
 }
 
-.elephant-info {
+.slow_loris-info {
     background-color: var(--color-darkgreen-rgba);
     padding: 0 2rem;
     height: 250px;
@@ -107,12 +107,12 @@ ul .button:hover {
     color: var(--text-color-info);
 }
 
-.elephant-info h2 {
+.slow_loris-info h2 {
     font-size: 50px;
     text-align: start;
 }
 
-.elephant-info p {
+.slow_loris-info p {
     font-size: 15px;
     text-align: justify;
 } 
@@ -124,7 +124,7 @@ ul .button:hover {
     padding-top: 1rem;
 }
 
-.elephant-info .button {
+.slow_loris-info .button {
     background-color: #FFA500;
     border-radius: 30px;
     width: 200px;
@@ -134,7 +134,7 @@ ul .button:hover {
     align-items: center;
 }
 
-.elephant-info .button a {
+.slow_loris-info .button a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +143,8 @@ ul .button:hover {
     color: var(--text-color-info);
 }
 
-.elephant-image-2 img {
+.slow_loris-image-2 img {
     width: 300px;
 }
-/* ========== Elephant Gallery end ========== */
+/* ========== Slow loris Gallery end ========== */
 

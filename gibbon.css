@@ -74,32 +74,21 @@ ul .button:hover {
 
 /* =========== Header menu end ========== */
 
-/* ========== Elephant Gallery start ========== */
-.elephant-container {
+/* ========== Gibbon Gallery start ========== */
+.gibbon-container {
     padding: 22px 0;
 }
 
-.elephant {
+.gibbon {
     display: flex;
     align-items: center;
 }
 
-.elephant-image-1 {
-    background-color: var(--color-green);
-    border-radius: 30px;
+.gibbon-image-1 img {
     width: 300px;
-    height: 300px;
-    margin-left: 50px;
 }
 
-.elephant-image-1 img {
-    width: 350px;
-    height: auto;
-    position: relative;
-    top: -28%;
-}
-
-.elephant-info {
+.gibbon-info {
     background-color: var(--color-darkgreen-rgba);
     padding: 0 2rem;
     height: 250px;
@@ -107,15 +96,15 @@ ul .button:hover {
     color: var(--text-color-info);
 }
 
-.elephant-info h2 {
+.gibbon-info h2 {
     font-size: 50px;
-    text-align: start;
+    text-align: end;
 }
 
-.elephant-info p {
+.gibbon-info p {
     font-size: 15px;
     text-align: justify;
-} 
+}
 
 .button-container {
     display: flex;
@@ -124,7 +113,7 @@ ul .button:hover {
     padding-top: 1rem;
 }
 
-.elephant-info .button {
+.gibbon-info .button {
     background-color: #FFA500;
     border-radius: 30px;
     width: 200px;
@@ -134,7 +123,7 @@ ul .button:hover {
     align-items: center;
 }
 
-.elephant-info .button a {
+.gibbon-info .button a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +132,19 @@ ul .button:hover {
     color: var(--text-color-info);
 }
 
-.elephant-image-2 img {
+.gibbon-image-2 {
+    background-color: var(--color-green);
+    border-radius: 30px;
     width: 300px;
+    height: 300px;
+    margin-right: 50px;
 }
-/* ========== Elephant Gallery end ========== */
 
+.gibbon-image-2 img {
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -15%;
+    left: 12%;
+}
+/* ========== Gibbon Gallery end ========== */
