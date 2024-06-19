@@ -1,3 +1,5 @@
+![Wild nature_Fastwork-2](https://github.com/Wilawan-Watt/Wild-Nature-HTML-CSS/assets/171704208/d4b9b621-6f65-4279-965c-d9e0fcc9e455)
+
 The Wild Nature project was inspired by a single page (the cover page) from https://www.freepik.com/free-vector/wild-nature-landing-page_10841411.htm. I extended the concept to create a campaign about returning endangered animals to the wild. The remaining parts were designed and prototyped in Figma: https://www.figma.com/design/engkMDKlQonzChecwXecjB/Wild-Nature?node-id=0-1&t=kCeHcBt8DlF0VZlH-1.
 After that, I developed the webpage using HTML and CSS to bring this project to life.
 
